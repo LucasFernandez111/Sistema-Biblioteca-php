@@ -11,12 +11,9 @@ $ciudad = $_POST['ciudad'];
 $estado = $_POST['estado'];
 
 
-$query = "INSERT INTO T_cliente (nombre,apellido,direccion,ciudad,estado,dni) VALUES ('$nombre','$apellido','$direccion','$ciudad','$estado','$dni')";
-$result = mysqli_query($conexion, $query);
+$query = "INSERT INTO t_clientes (nombre,apellido,direccion,ciudad,estado,dni) VALUES ('$nombre','$apellido','$direccion','$ciudad','$estado','$dni')";
+$result = mysqli_query($conexion, $query) or die(mysqli_error($conexion));
 
+header('Location: http://localhost/sistema-biblioteca/libros.php')
 
-if (isset($result)) {
-    echo "Usuario Creado";
-}
-
-?>
+    ?>
