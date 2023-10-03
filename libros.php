@@ -12,14 +12,12 @@
     <form action="./services/createLibro.php" method="post">
         <label for="" class="etiquetas">INFO LIBROS</label>
         <label for="" class="etiquetas">Autor</label>
-        <input type="text">
+        <input type="text" name="autor" class="inputs">
         <label for="" class="etiquetas">Titulo</label>
-        <input type="text">
+        <input type="text" name="titulo" class="inputs">
         <label for="" class="etiquetas">Precio</label>
-        <input type="text">
-        <label for="" class="etiquetas">fecha de Retiro</label>
-        <input type="date"> <!-- creo que eso va en retiros.php -->
-
+        <input type="text" name="precio" class="inputs">
+     
         <input type="submit" id="boton">
     </form>
 
