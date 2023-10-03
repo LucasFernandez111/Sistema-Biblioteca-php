@@ -9,6 +9,12 @@
 </head>
 
 <body>
+    <ul>
+        <li><a href="index.php">clientes</a></li>
+        <li><a href="retiros.php">retiros</a></li>
+    </ul>
+
+
     <form action="./services/createLibro.php" method="post">
         <label for="" class="etiquetas">INFO LIBROS</label>
         <label for="" class="etiquetas">Autor</label>

@@ -7,6 +7,12 @@
     <title>Retiros</title>
 </head>
 <body>
+    <ul>
+        <li><a href="libros.php">libros</a></li>
+        <li><a href="index.php">clientes</a></li>
+    </ul>
+
+
     <form action="./services/createRetiro.php" method="post">
         <label for="" class="etiquetas">Nombre del cliente</label>
         <input type="text" class="inputs" name="nombre_cliente" required>

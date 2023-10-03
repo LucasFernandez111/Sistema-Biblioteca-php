@@ -11,6 +11,10 @@
 <body>
  
     <div>
+        <ul>
+            <li><a href="libros.php">libros</a></li>
+            <li><a href="retiros.php">retiros</a></li>
+        </ul>
     <form action="./services/createUser.php" method="post">
         <h1>Client</h1>
         <label for="" class="etiquetas">Nombre</label>
