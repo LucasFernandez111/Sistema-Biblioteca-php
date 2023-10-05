@@ -30,6 +30,7 @@
                                 <li><a class="dropdown-item" href="#">Libros</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item"><a href="baja.php" class="nav-link">Baja</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,7 +38,7 @@
     </div>
 
 
-    <form action="./services/createLibro.php" method="post">
+    <form action="./services/createLibro.php" method="post" class="bg-light">
         <h1 class="etiquetas">INFO LIBROS</h1>
 
         <div class="mb-3">

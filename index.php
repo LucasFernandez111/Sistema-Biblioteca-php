@@ -24,6 +24,7 @@
                                 <li><a class="dropdown-item" href="retiros.php">Retiros</a></li>
                             </ul>
                         </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Lista</a>
                             <ul class="dropdown-menu">
@@ -31,6 +32,7 @@
                                 <li><a class="dropdown-item" href="#" >Libros</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item"><a href="baja.php" class="nav-link">Baja</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,41 +41,43 @@
 
 
     <div class="container min-vh-100 d-flex justify-content-center aling-items-center">
-    <form action="./services/createUser.php" method="post" class="row g-3">
-        <h1>Cliente</h1>
-        <div class="col-md-6">   
-        <label for="" class="form-label">Nombre</label>
-        <input type="text" name="name" class="form-control" required>
-        </div>
+        <form action="./services/createUser.php" method="post" class="row g-3 bg-light">
+            <h1>Cliente</h1>
 
-        <div class="col-md-6">
-        <label for="" class="form-label">Apellido</label>
-        <input type=" text" name="apellido" class="form-control" required>
-        </div>
+            <div class="col-md-6">   
+                <label for="" class="form-label">Nombre</label>
+                <input type="text" name="name" class="form-control" required>
+            </div>
 
-        <div class="col-12">
-        <label for="" class="form-label">Direccion</label>
-        <input type=" text" name="direccion" class="form-control" required>
-        </div>
+            <div class="col-md-6">
+                <label for="" class="form-label">Apellido</label>
+                <input type=" text" name="apellido" class="form-control" required>
+            </div>
 
-        <div class="col-12">
-        <label for="" class="form-label">DNI</label>
-        <input type=" text" name="dni" class="form-control" required>
-        </div>
+            <div class="col-12">
+                <label for="" class="form-label">Direccion</label>
+                <input type=" text" name="direccion" class="form-control" required>
+            </div>
 
-        <div class="col-md-6">
-        <label for="" class="form-label">Estado</label>
-        <input type=" text" name="estado" class="form-control" required>
-        </div>
+            <div class="col-12">
+                <label for="" class="form-label">DNI</label>
+                <input type=" text" name="dni" class="form-control" required>
+            </div>
 
-        <div class="col-md-6">
-        <label for="" class="form-label">Ciudad</label>
-        <input type=" text" name="ciudad" class="form-control" required>
-        </div>
+            <div class="col-md-6">
+                <label for="" class="form-label">Estado</label>
+                <input type=" text" name="estado" class="form-control" required>
+            </div>
 
-        <input type="submit" class="btn btn-primary">
-    </form>
+            <div class="col-md-6">
+                <label for="" class="form-label">Ciudad</label>
+                <input type=" text" name="ciudad" class="form-control" required>
+            </div>
+
+            <input type="submit" class="btn btn-primary">
+        </form>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 

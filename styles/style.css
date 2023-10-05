@@ -1,15 +1,7 @@
-body{
-    background-color: #b0ffb4;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
-form {
-    background-color: #fff;
+
+form {   
     display: inline-block;
-    border: 0px solid black;
-    border-radius: 5px;
     width: 300px;
     padding: 20px;
     text-align: center;
@@ -26,29 +18,4 @@ label, input {
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin: 10px auto;
-}
-
-.inputs{
-    border: 0;
-    outline: none;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-#boton{
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#boton:hover{
-    background-color: #45a049;
-}
-
-.etiquetas{
-    font-size: 15px;
-    font-weight: bold;
 }

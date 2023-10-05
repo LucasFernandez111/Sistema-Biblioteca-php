@@ -16,4 +16,4 @@ $result = mysqli_query($conexion, $query) or die(mysqli_error($conexion));
 
 header('Location: ../libros.php')
 
-    ?>
+?>
