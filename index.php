@@ -43,32 +43,32 @@
         <h1>Cliente</h1>
         <div class="col-md-6">   
         <label for="" class="form-label">Nombre</label>
-        <input type="text" name="name" class="form-control">
+        <input type="text" name="name" class="form-control" required>
         </div>
 
         <div class="col-md-6">
         <label for="" class="form-label">Apellido</label>
-        <input type=" text" name="apellido" class="form-control">
+        <input type=" text" name="apellido" class="form-control" required>
         </div>
 
         <div class="col-12">
         <label for="" class="form-label">Direccion</label>
-        <input type=" text" name="direccion" class="form-control">
+        <input type=" text" name="direccion" class="form-control" required>
         </div>
 
         <div class="col-12">
         <label for="" class="form-label">DNI</label>
-        <input type=" text" name="dni" class="form-control">
+        <input type=" text" name="dni" class="form-control" required>
         </div>
 
         <div class="col-md-6">
         <label for="" class="form-label">Estado</label>
-        <input type=" text" name="estado" class="form-control">
+        <input type=" text" name="estado" class="form-control" required>
         </div>
 
         <div class="col-md-6">
         <label for="" class="form-label">Ciudad</label>
-        <input type=" text" name="ciudad" class="form-control">
+        <input type=" text" name="ciudad" class="form-control" required>
         </div>
 
         <input type="submit" class="btn btn-primary">

@@ -42,17 +42,17 @@
 
         <div class="mb-3">
             <label class="form-label">Autor</label>
-            <input type="text" name="autor" class="form-control">
+            <input type="text" name="autor" class="form-control" required>
         </div>
 
         <div class="mb-3">
             <label class="form-label">Titulo</label>
-            <input type="text" name="titulo" class="form-control">
+            <input type="text" name="titulo" class="form-control" required>
         </div>
 
         <div class="mb-3">
             <label class="form-label">Precio</label>
-            <input type="text" name="precio" class="form-control">
+            <input type="text" name="precio" class="form-control" required>
         </div>
      
         <input type="submit" class="btn btn-primary">
