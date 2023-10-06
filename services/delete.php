@@ -1,19 +1,24 @@
 <?php
+
+
 include('../database/db.php');
+$id_libros = $_POST['id_libros'];
 
 
-$registros=mysqli_query($conexion,"select id_libros from t_libros where id_libros='$_REQUEST[id_libros]'");
+$registros = mysqli_query($conexion, "SELECT * FROM t_libros WHERE id_libros='$id_libros'");
 
-if($reg=mysqli_fetch_array($registros))
-{
-    mysqli_query($conexion,"delete from t_libros where id_libros='$_request[nombre]'");
-    echo "se efectuó el borrado";
+
+$file = mysqli_fetch_array($registros);
+
+
+
+if (isset($file)) {
+
+    mysqli_query($conexion, "DELETE FROM t_libros WHERE id_libros = '$id_libros'");
+    echo '<h1> Se efectuo correctamente el borrado  <h1>';
+} else {
+    echo '<h1> No existe el ID ingresado  <h1>';
 }
-else
-{
-echo "no existe el id";
-}
-mysqli_close($conexion);
 
 
-    ?>
+?>

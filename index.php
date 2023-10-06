@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
- 
+
     <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-light bg-light border-3 border-bottom border-primary">
             <div class="container-fluid">
@@ -29,7 +30,7 @@
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Lista</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Clientes</a></li>
-                                <li><a class="dropdown-item" href="#" >Libros</a></li>
+                                <li><a class="dropdown-item" href="#">Libros</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="baja.php" class="nav-link">Baja</a></li>
@@ -40,12 +41,12 @@
     </div>
 
 
-    <div class="container min-vh-100 d-flex justify-content-center aling-items-center">
+    <div class="container-sm mt-5 d-flex justify-content-center aling-items-center shadow ">
         <form action="./services/createUser.php" method="post" class="row g-3 bg-light">
-            <h1>Cliente</h1>
+            <h1 class="text-center">CLIENTE</h1>
 
-            <div class="col-md-6">   
-                <label for="" class="form-label">Nombre</label>
+            <div class=" col-md-6 ">
+                <label for="" class=" form-label">Nombre</label>
                 <input type="text" name="name" class="form-control" required>
             </div>
 
@@ -78,7 +79,9 @@
         </form>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
